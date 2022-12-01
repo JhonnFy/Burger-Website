@@ -1,3 +1,4 @@
+//sass --watch scss/style.scss css/style.css
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500&family=Raleway:wght@100;300;400;500;600&display=swap');
 
 *{
@@ -23,7 +24,7 @@ $border:.2rem solid rgba(255,255,255,.3);
         color: $white;
 }
 
-@mixin  grap-text($titleSize) {
+@mixin  grap-text($grapSize) {
     font-size: $grapSize;
     line-height: 2;
     color: $light-color;
@@ -58,6 +59,27 @@ body{
     background-attachment: fixed;
     background-position: center;
     overflow-x: hidden;
+}
+
+section{
+    padding: 3rem 9%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: $white;
+    border: $border;
+    background: no-repeat;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+
+
+    &:hover{
+        color: $black;
+        background: $white;
+    }
 }
 
 .header{
@@ -145,6 +167,33 @@ body{
 }
 
 
+.home{
+    margin-top: 7rem;
+    background: url(../Img/home-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .content{
+        max-width:  70rem;
+        text-align: center;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+
+        h3{
+            @include title-text(4rem);
+        }
+        
+        p{
+            @include grap-text(1.7rem);
+            padding: 2rem 0;
+        }
+
+    }
+}
+
 
 
 
@@ -161,6 +210,10 @@ body{
 @media (max-width:1200px){
     .header{
         padding: 3rem;
+    }
+    
+    section{
+        padding: 3rem 2rem;
     }
 }
 
@@ -203,6 +256,12 @@ body{
                 display: none;
             }
         }
+    }
+}
+
+@media (max-width:768px){
+    .home .content h3{
+        font-size: 2.5rem;
     }
 }
 
