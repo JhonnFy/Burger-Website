@@ -3,6 +3,6 @@
 
 ### Recursos
 ###### Data.csv
-Corresponde al documento Excel, origen de los datos.
 
 
+![Capture](https://github.com/JhonnFy/Burger-Website/assets/97255802/3dbe64d6-ce63-4121-a457-21beb231efe6)
