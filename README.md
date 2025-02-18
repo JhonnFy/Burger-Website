@@ -38,13 +38,8 @@ To install and run the project locally, follow these steps:
 ![Capture](https://github.com/JhonnFy/Burger-Website/assets/97255802/3dbe64d6-ce63-4121-a457-21beb231efe6)
 ![Capture](https://github.com/JhonnFy/Burger-Website/assets/97255802/230a3fc4-b4f4-487b-b602-16250ce214ab)
 
-![Homepage](images/homepage.png)
-![Menu Section](images/menu.png)
-
 ## Contributions
-
 Contributions are welcome. If you want to improve any functionality, open an issue or submit a pull request.
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
